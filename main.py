@@ -3,7 +3,7 @@ sys.path.append('../')
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from data_loader2 import load_archived_hyperspectral_data, get_dataset_params
+from data_loader import load_archived_hyperspectral_data, get_dataset_params
 from train import train_prototypical
 from test import test_prototypical
 from Models.spectral_cnn1_2d import SpectralCNN, SpectralCNN2D
